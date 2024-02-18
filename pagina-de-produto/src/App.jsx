@@ -1,5 +1,6 @@
 import './App.module.css'
 import { Header } from './components/Header'
+import { Modal } from './components/Modal'
 
 
 function App() {
@@ -7,17 +8,16 @@ function App() {
   return (
 
     <div>
-
-    <div className="wrapper">
-      <Header/>
-      <article className="modal">
-
+      <header>
+        <Header/>
+      </header>
+     
+      <article>
+        <Modal/>
       </article>
-      <div className="content">
-      
+
     </div>
-    </div>
-    </div>
+    
     
  
     

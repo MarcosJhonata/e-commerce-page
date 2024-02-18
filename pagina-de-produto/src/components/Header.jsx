@@ -7,16 +7,24 @@ export function Header() {
 return (
         <header className={style.header}>
         <img src={SneakerLogo} alt="" />
-        <button>Men</button>
-        <button>Women</button>
-        <button>About</button>
-        <button>Contact</button>
-        <button>Collection</button>
-         <button className={style.cart}>
+        <nav>
+        <ul className={style.nav}>
+            <li>Men</li>
+            <li>Women</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Collection</li>
+      </ul>
+        </nav>
+     
+        <div className={style.avatarAndCart}>
+        <button className={style.cart}>
             <img src={CartIcon} alt="" />
          </button>
         <img className={style.avatar} src={Avatar} alt="" />
           
+        </div>
+        
     </header>
 
     
