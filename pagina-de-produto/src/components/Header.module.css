@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 3rem 7rem;
+    font-size: 0.70rem;
+    gap:3rem;
+}
+
+.avatar {
+    width: 2.5rem;
+    height: 2.5rem;
+    transition: color 0.1s, background-color 0.1s;
+}
+
+.cart {
+    background: transparent;
+    border: none;
+}
+
