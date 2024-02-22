@@ -3,7 +3,8 @@
   --white: white;
   --orange:#ffa500;
   --black: #000000;
-  --gray:  rgb(100 116 139);
+  --gray-500: rgb(100 116 139);
+  --gray-200: lightgray;
 }
 
 * {

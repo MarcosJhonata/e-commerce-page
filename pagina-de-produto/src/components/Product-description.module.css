@@ -1,0 +1,35 @@
+.description {
+    display:flexbox;
+    align-items: center;
+    justify-content: center;
+    margin: 10rem;
+    width: 20rem;
+}
+.company {
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    color: var(--orange);
+}
+
+.model {
+    margin-bottom: 1rem;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.content {
+    margin-bottom: 1rem;
+    color: var(--gray-200);
+}
+
+.prize {
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-size:2rem;
+    font-weight: bold;
+}
+.discount {
+    font-size: 1rem;
+    color:var(--gray-200);
+    text-decoration:line-through;
+}
