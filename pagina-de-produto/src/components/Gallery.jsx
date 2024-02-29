@@ -29,16 +29,16 @@ export function Gallery() {
   },
 
 ]   
-    const [model, setModel] = useState(false);
+    
     const [tempimgSrc , setTempImgSrc] = useState('');
     const getImg= (imgSrc) => {
         setTempImgSrc(imgSrc);
-        setModel(true);
     }
     return (
-        <>
-        <div className={model? "{style.modelopen}" : "{style.model}"}>
-            <img src={tempimgSrc}/>
+        
+        <div>
+        <div className={style.galleryOpen}>
+            <img className={style.selectimage} src={tempimgSrc}/>
         </div>
         <div className={style.gallery}>
             {images.map((item,index)=>{
@@ -50,6 +50,6 @@ export function Gallery() {
                 )
             })}
         </div>
-        </>
+        </div>
     )
     }

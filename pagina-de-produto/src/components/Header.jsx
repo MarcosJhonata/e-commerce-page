@@ -5,15 +5,16 @@ import CartIcon from '..//assets/icon-cart.svg'
 
 export function Header() {
 return (
-        <header className={style.header}>
+    <header className={style.container}>
+        <div className={style.header}>
         <img src={SneakerLogo} alt="" />
         <nav>
         <ul className={style.nav}>
-            <li>Men</li>
-            <li>Women</li>
-            <li>About</li>
-            <li>Contact</li>
-            <li>Collection</li>
+            <li className={style.navItem}>Men</li>
+            <li className={style.navItem}>Women</li>
+            <li className={style.navItem}>About</li>
+            <li className={style.navItem}>Contact</li>
+            <li className={style.navItem}>Collection</li>
       </ul>
         </nav>
      
@@ -25,8 +26,8 @@ return (
           
         </div>
         
+    </div>
     </header>
-
     
 )
 }
