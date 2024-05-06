@@ -8,9 +8,7 @@ import { ProductDescription } from './components/Product-description'
   return (
 
     <div>
-      
         <Header/>
-     
       <article className={style.content}>
         <Gallery/>
         <ProductDescription/>
